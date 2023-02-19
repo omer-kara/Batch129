@@ -1,0 +1,35 @@
+package day15arrays;
+
+public class Arrays04Tekrar {
+
+    public static void main(String[] args) {
+
+        //Ex 1: Bir Arrayin icinde herhangi bir elemanin olup olmadigini
+        //kontrol eden ve kac kere tekrarlandigini gosteren kodu yaziniz
+
+        int a[] = {0, 2, 3, 0, 12, 0};
+
+        int num = 2;
+
+        int idx = 0;
+
+        for (int w : a) {
+
+            if (num == w) {
+
+                idx++;
+            }
+            }
+            if (idx > 0) {
+
+                System.out.println(num + " bu rakam " + idx + "defa kullanilmistir");
+
+            }else {
+                System.out.println(num + " bu rakam kullanilmamistir");
+
+            }
+
+
+
+    }
+}
