@@ -7,6 +7,15 @@ public class ForLoop02 {
         //           "Madagaskar" ==> Mdgskr
         String s = "Madagaskar";
 
+//        for (int i=0; i<=s.length()-1; i++){
+//            char ch=s.charAt(i);
+//            if (ch!='a'){
+//                System.out.println();   //Mdgskr
+//
+//            }
+//        }
+
+        System.out.println();
         //1.Yol:
         String t = s.replace("a", "");
         System.out.println(t);// Mdgskr

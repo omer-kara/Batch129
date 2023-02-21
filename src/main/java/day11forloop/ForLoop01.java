@@ -12,8 +12,8 @@ public class ForLoop01 {
 
         for(int i =0 ; i<s.length()  ; i++){
 
-            if(s.charAt(i)=='a'){
-                break;
+            if(s.charAt(i)=='a'){   //Character "a" degilse yazdir onu diyoruz
+                break;  //ilk "a" yi gorursen loop u kir dedik
             }
 
             System.out.print(s.charAt(i));//I love J
@@ -23,6 +23,18 @@ public class ForLoop01 {
 
         //Ex 2: Verilen bir stringte son a dan sonraki tum characterleri ters sirada yazdiriniz.
         // Germany ==>yn
+
+//        String t = "Germany";
+//
+//        for (int i =t.length()-1; i>=0 ; i--){
+//
+//            if (t.charAt(i)=='a'){
+//                break;
+//
+//            }
+//            System.out.print(t.charAt(i));
+//        }
+
 
         String t = "Germany";
 
@@ -38,4 +50,6 @@ public class ForLoop01 {
 
 
     }
+
+
 }

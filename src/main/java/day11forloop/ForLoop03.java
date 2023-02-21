@@ -3,6 +3,7 @@ package day11forloop;
 public class ForLoop03 {
     public static void main(String[] args) {
 
+
 //Ex 1= Size verilen bir String´i tersten yazdiriniz.
         //Util ==> kullanmak demek  (Sik kullananalar deposudur.)
 
@@ -43,6 +44,7 @@ public class ForLoop03 {
             }else {
                 System.out.println(duz + " Palindrome degildir");
             }
+
 
 
 
